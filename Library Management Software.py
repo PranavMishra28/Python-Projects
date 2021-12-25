@@ -1,7 +1,3 @@
-#To do:
-#(1) Make it menu driven
-# 
-
 # Extracting information from the two files:
 
 f = open('booklist-1.txt','r')
@@ -81,9 +77,6 @@ def reserved(): #Puts all books in the reserved section into a list
             res.append(i[0])
         else:
             unres.append(i[0])##l=[]
-##for i in librarylog:
-##    for j in i:
-##        if j[0]=="B":
 
         
 def borrowlimit(): #Checks to see if borrower has exceeded the borrow limit or not
@@ -134,44 +127,6 @@ def popcheck(): #Tells you what the most popular book in the library is
     
 popcheck()
 
-#3 Which books have the highest borrow ratio. You have to consider how many copies are there for this also . For example if a book has 10 copies from day 1 and 1 copy was always borrowed but another book has only 2 copies and 1 copy was borrowed half the number of days. The 2nd book has more borrow ratio. Basically for how much of the books were available vs how much they got borrowed:
-##days_borrowed_for = []
-##total_days = []
-##total_copies = []
-##bratio = []
-##
-##
-##
-##for i in librarylog:
-##    for j in i:
-##        if j[0] == 'B':
-##            days_borrowed_for.append(j[4])
-##        elif j[0] == 'R':
-##            total_days.append(j[1])
-##
-##
-##for i in booklist:
-##    total_copies.append(i[1])
-##
-##print("Days borrowed for: ",days_borrowed_for)
-##print("Total Days: ",total_days)
-##print("Total Copies: ",total_copies)
-##print(bratio)
-##
-##for i in range(0,len(days_borrowed_for)):
-##    bratio.append(int(days_borrowed_for[i])/((int(total_days[i]))*(int(total_copies[i]))))
-##
-##s = max(bratio)
-##s1 = bratio.index(s)
-##
-##print()
-##print("highest borrow ratio: ",booklist[s1][0])
-
-##
-##l=[]
-##for i in librarylog:
-##    for j in i:
-##        if j[0]=="B":
 l1=[]
 all_books=res+unres
 num=0
@@ -313,14 +268,7 @@ userfine()
     
     
     
-    
-    
-    
-    
-# Check Q5. Answer not correct
-#Will log follow the order BRAP; No
-# Can the log have 2 consecutive P entries by 2 different people; yes
-#For question 5 should we print cumulative fines or the marginal fine on that day; cumulative
+
 
     
 
