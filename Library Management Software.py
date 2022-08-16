@@ -254,29 +254,3 @@ def userfine():
     print("Total fine on",userdays,":",newresfine + newunresfine)
 
 userfine()
-
-
-             
-                 
-               
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-    
-
-
-
-    
-
-    
-
-
-
